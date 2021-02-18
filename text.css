@@ -4,23 +4,18 @@
     padding: 0;
 }
 
+h2 {
+    font-family:'Dancing Script', cursive;   
+  }
+
 .container {
     padding-left: 0;
     padding-right: 0;
+    position: relative;
+
 }
 
-.jumbotron {
-    color: white;
-    background-image: url("Images/deva-williamson-YpIKbBZtSWY-unsplash.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 500px;
-  }
-
-  .container {
-      position: relative;
-  }
+/* NAVIGATION SECTION */
 
   .navbar {
       position: absolute;
@@ -29,17 +24,25 @@
       padding-right: 30px;
   }
 
+  .btn-light:hover {
+    background-color: #e8eaf6;
+}
+
+  /* JUMBOTRON SECTION */
+
+  .jumbotron {
+    color: white;
+    background-image: url("Images/deva-williamson-YpIKbBZtSWY-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+  }
+
   .mybutton {
     background-color: #fbc2c8;
   }
 
-  .mynavbutton {
-      padding:0px;
-  }
-
-  .btn-light:hover {
-      background-color: #e8eaf6;
-  }
 
   .mytitle {
       padding-top:200px;
@@ -53,13 +56,13 @@
       padding-left: 20px;
   }
 
-  h2 {
-    font-family:'Dancing Script', cursive;   
-  }
+/* ABOUT US SECTION */
 
   .myrows {
       background-color: #fbc2c8;
   }
+
+/* SERVICES SECTION */
 
   .myserviceicons {
       font-size: 4rem;
@@ -68,25 +71,33 @@
       color: #fdccd0;
   }
 
-.myslides {
-    background-position: center;
-    background-size: cover;
-    width:auto;
-}
-  
-.carousel-item img {
-    background-position:left;
-}
+/* GALLERY SECTION */
 
 .mygallery {
     background-color: #e8eaf6;
 }
 
 .mygallery img {
-    width: 400px;
-    height: 150px;
+    width: 100%;
+    height: 300px;
     object-fit: cover;
 }
+
+.myslides {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+  
+
+/* CAROUSEL SECTION */
+
+.carousel-item img {
+    background-position:left;
+}
+
+
+/* FOOTER SECTION */
 
 footer {
     background-color: #fbc2c8;;
@@ -108,6 +119,7 @@ footer {
 
 
 @media (min-width: 768px) { 
+
     .myslides {
         background-position: center;
         background-size: cover;
@@ -115,13 +127,3 @@ footer {
         height: 400px;
     }
 }
- }
-
-
-@media (min-width: 992px) {  }
-
-
-@media (min-width: 1200px) { }
-
-
-@media (min-width: 1400px) { }
