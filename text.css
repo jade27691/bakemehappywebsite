@@ -1,0 +1,94 @@
+
+
+.jumbotron {
+    color: white;
+    background-image: url("Images/deva-williamson-YpIKbBZtSWY-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+  }
+
+  .container {
+      position: relative;
+  }
+
+  .navbar {
+      position: absolute;
+      width: 100%;
+      z-index: 4;
+      padding-right: 30px;
+  }
+
+  .mybutton {
+    background-color: #fbc2c8;
+  }
+
+  .mynavbutton {
+      padding:0px;
+  }
+
+  .btn-light:hover {
+      background-color: #e8eaf6;
+  }
+
+  .mytitle {
+      padding-top:200px;
+      padding-left: 20px;
+      font-family:'Dancing Script', cursive;
+      color: purple;
+  }
+
+  .jumbotron p {
+      color: purple;
+      padding-left: 20px;
+  }
+
+  h2 {
+    font-family:'Dancing Script', cursive;   
+  }
+
+  .myrows {
+      background-color: #fbc2c8;
+  }
+
+  .myserviceicons {
+      font-size: 4rem;
+      text-align: center;
+      margin-top: 40px;
+      color: #fdccd0;
+  }
+
+.myslides {
+    background-position: center;
+    background-size: cover;
+    width:auto;
+    height: 400px;
+}
+  
+.carousel-item img {
+    background-position:left;
+}
+
+.mygallery {
+    background-color: #e8eaf6;
+}
+
+.mygallery img {
+    width: 400px;
+    height: 150px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #fbc2c8;;
+}
+
+.myicons {
+    color: black;
+    font-size: 2rem;
+}
+
+.myicons:hover {
+    color:#e8eaf6;
+}
