@@ -4,33 +4,34 @@
     padding: 0;
 }
 
-h2 {
-    font-family:'Dancing Script', cursive;   
-  }
-
 .container {
     padding-left: 0;
     padding-right: 0;
-    position: relative;
+}
 
+.container {
+    position: relative;
 }
 
 /* NAVIGATION SECTION */
 
-  .navbar {
-      position: absolute;
-      width: 100%;
-      z-index: 4;
-      padding-right: 30px;
-  }
+.navbar {
+    position: absolute;
+    width: 100%;
+    z-index: 4;
+    padding-right: 30px;
+}
 
-  .btn-light:hover {
+.mynavbutton {
+    padding:0px;
+}
+
+.btn-light:hover {
     background-color: #e8eaf6;
 }
 
-  /* JUMBOTRON SECTION */
-
-  .jumbotron {
+/* JUMBOTRON SECTION */
+.jumbotron {
     color: white;
     background-image: url("Images/deva-williamson-YpIKbBZtSWY-unsplash.jpg");
     background-position: center;
@@ -42,7 +43,6 @@ h2 {
   .mybutton {
     background-color: #fbc2c8;
   }
-
 
   .mytitle {
       padding-top:200px;
@@ -56,13 +56,17 @@ h2 {
       padding-left: 20px;
   }
 
-/* ABOUT US SECTION */
+  h2 {
+    font-family:'Dancing Script', cursive;   
+  }
+
+  /* ABOUT US SECTION */
 
   .myrows {
       background-color: #fbc2c8;
   }
 
-/* SERVICES SECTION */
+  /* SERVICES SECTION */
 
   .myserviceicons {
       font-size: 4rem;
@@ -71,17 +75,7 @@ h2 {
       color: #fdccd0;
   }
 
-/* GALLERY SECTION */
-
-.mygallery {
-    background-color: #e8eaf6;
-}
-
-.mygallery img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-}
+  /* SLIDES */
 
 .myslides {
     background-position: center;
@@ -89,13 +83,19 @@ h2 {
     width: 100%;
 }
   
-
-/* CAROUSEL SECTION */
-
 .carousel-item img {
     background-position:left;
 }
 
+.mygallery {
+    background-color: #e8eaf6;
+}
+
+.mygallery img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
 
 /* FOOTER SECTION */
 
@@ -119,7 +119,6 @@ footer {
 
 
 @media (min-width: 768px) { 
-
     .myslides {
         background-position: center;
         background-size: cover;
@@ -127,3 +126,13 @@ footer {
         height: 400px;
     }
 }
+ }
+
+
+@media (min-width: 992px) {  }
+
+
+@media (min-width: 1200px) { }
+
+
+@media (min-width: 1400px) { }
