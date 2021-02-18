@@ -1,4 +1,14 @@
 
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .jumbotron {
     color: white;
     background-image: url("Images/deva-williamson-YpIKbBZtSWY-unsplash.jpg");
