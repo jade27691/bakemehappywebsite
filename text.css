@@ -1,5 +1,4 @@
 
-
 .jumbotron {
     color: white;
     background-image: url("Images/deva-williamson-YpIKbBZtSWY-unsplash.jpg");
@@ -63,7 +62,6 @@
     background-position: center;
     background-size: cover;
     width:auto;
-    height: 400px;
 }
   
 .carousel-item img {
@@ -92,3 +90,28 @@ footer {
 .myicons:hover {
     color:#e8eaf6;
 }
+
+
+@media (min-width: 576px) { 
+    
+}
+
+
+@media (min-width: 768px) { 
+    .myslides {
+        background-position: center;
+        background-size: cover;
+        width:auto;
+        height: 400px;
+    }
+}
+ }
+
+
+@media (min-width: 992px) {  }
+
+
+@media (min-width: 1200px) { }
+
+
+@media (min-width: 1400px) { }
